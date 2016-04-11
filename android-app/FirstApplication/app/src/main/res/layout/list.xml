@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    >
+
+    <!-- Name Label -->
+
+
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dip"
+        android:paddingTop="6dip"
+        android:text="Name"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:clickable="false"
+        android:layout_gravity="center_horizontal"/>
+
+    <!-- Email label -->
+    <TextView
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dip"
+        android:layout_gravity="center_horizontal"
+        android:clickable="false" />
+    <!-- Mobile number label -->
+    <TextView
+        android:id="@+id/device_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Mobile: "
+        android:clickable="false"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>
