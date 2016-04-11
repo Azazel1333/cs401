@@ -1,4 +1,4 @@
-# H1 Project overview
+# Project overview
 
 The purpose of this repository is to establish connection between a mobile app, a LAMP server, and a raspberry PI in such a way that you will be able to initiate requests VIA your android app, process the requests on your server and as required you can initiate code on an embedded device located at another remote location.
 
@@ -10,7 +10,7 @@ Purpose of each "node" / location:
 
 3. Android APP - Everyone wants to control their devices remotely and for the purposes of the Door Strike project I felt that this was without question a necessity. Being able to unlock your door from absolutely anywhere in the world provided you have an internet connection can most definitely have its perks.
 
-## H2 File structure of the repository
+## File structure of the repository
 
 To provide as much simplicity as possible I will seperate the source code for each application within it's own directory. More specifically the directories will be mapped as shown below:
 
@@ -21,17 +21,17 @@ To provide as much simplicity as possible I will seperate the source code for ea
   raspberry-pi -> python code that is executed by lamp server
 
 
-## H2 Requirements for code execution
+## Requirements for code execution
 
-### H3 Android Studio:
+### Android Studio:
 
 You can download Android Studio version 2.0 here: http://developer.android.com/sdk/index.html
 
-### H3 Raspberry PI (SSH Enabled with Python):
+### Raspberry PI (SSH Enabled with Python):
 
 You can download the latest version of raspian here (this project was using default settings using the "Jessie" distribution): https://www.raspberrypi.org/downloads/raspbian/ 
 
-### H3 LAMP Server: 
+### LAMP Server: 
 
 You will most likely require a dedicated server or a server where you have full permissions to execute SSH.
 
