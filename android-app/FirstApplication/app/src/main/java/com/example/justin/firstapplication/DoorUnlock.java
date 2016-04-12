@@ -144,7 +144,7 @@ public class DoorUnlock extends Activity {
         protected void onPreExecute() {
             super.onPreExecute();
             pDialog = new ProgressDialog(DoorUnlock.this);
-            pDialog.setMessage("Unlocking Door. Please wait...");
+            pDialog.setMessage("Door will be unlocked for 10 seconds once connection is established. Door will be locked once this message disappears...");
             pDialog.setIndeterminate(false);
             pDialog.setCancelable(false);
             pDialog.show();

@@ -39,6 +39,8 @@ public class MainActivity extends Activity {
     //Button btnNewProduct;
     Button btnDoorUnlock;
     Button btnGetUsers;
+    Button btnFDoorUnlock;
+    Button btnFDoorLock;
     /**
      * ATTENTION: This was auto-generated to implement the App Indexing API.
      * See https://g.co/AppIndexing/AndroidStudio for more information.
@@ -56,6 +58,8 @@ public class MainActivity extends Activity {
         // Buttons
         btnDoorUnlock = (Button) findViewById(R.id.btnDoorUnlock);
         btnGetUsers = (Button) findViewById(R.id.btnGetUsers);
+        btnFDoorUnlock = (Button) findViewById(R.id.btnFDoorUnlock);
+        btnFDoorLock = (Button) findViewById(R.id.btnFDoorLock);
 
         // view products click event
         btnDoorUnlock.setOnClickListener(new View.OnClickListener() {
@@ -64,6 +68,32 @@ public class MainActivity extends Activity {
             public void onClick(View view) {
                 // Launching All products Activity
                 Intent i = new Intent(getApplicationContext(), DoorUnlock.class);
+                startActivity(i);
+
+
+
+            }
+        });
+
+        btnFDoorUnlock.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View view) {
+                // Launching All products Activity
+                Intent i = new Intent(getApplicationContext(), FDoorUnlock.class);
+                startActivity(i);
+
+
+
+            }
+        });
+
+        btnFDoorLock.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View view) {
+                // Launching All products Activity
+                Intent i = new Intent(getApplicationContext(), FDoorLock.class);
                 startActivity(i);
 
 

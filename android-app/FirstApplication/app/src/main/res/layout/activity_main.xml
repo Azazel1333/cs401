@@ -34,12 +34,22 @@
         android:text="Connect"
         android:layout_marginTop="25dip"/>
 -->
+    <Button android:id="@+id/btnFDoorUnlock"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Unlock The Door"
+        android:layout_marginTop="25dip"/>
 
+    <Button android:id="@+id/btnFDoorLock"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Lock The Door"
+        android:layout_marginTop="25dip"/>
 
     <Button android:id="@+id/btnDoorUnlock"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="Door Unlock"
+        android:text="Unlock for 10 seconds"
         android:layout_marginTop="25dip"/>
 
 

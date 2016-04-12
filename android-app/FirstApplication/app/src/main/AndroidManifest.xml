@@ -28,6 +28,17 @@
         </activity>
 
         <activity
+            android:name=".FDoorUnlock"
+            android:label="Unlock" >
+        </activity>
+
+        <activity
+            android:name=".FDoorLock"
+            android:label="Lock" >
+        </activity>
+
+
+        <activity
             android:name=".GetUsers"
             android:label="Get Users" >
         </activity>
