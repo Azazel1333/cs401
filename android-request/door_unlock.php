@@ -7,7 +7,7 @@
 *******************************************************************************************************************************************/
 
 
-	
+	include("db_connect.php");
 	error_reporting(E_ERROR | E_PARSE); // Error reporting is supressed due to the fact that phpseclib and my version of PHP has an encryption warning. This is a known bug with my version of PHP and may not be required for others
 	set_include_path(get_include_path() . PATH_SEPARATOR . 'phpseclib');
 	include('phpseclib/Net/SSH2.php');

@@ -4,8 +4,8 @@
  * All database connection variables
  */
  
-define('DB_USER', YOURUSERNAME); // db user
-define('DB_PASSWORD', YOURPASSWORD); // db password (mention your db password here)
-define('DB_DATABASE', YOURDATABASE"); // database name
-define('DB_SERVER', YOURSERVER); // db server
+define('DB_USER', "justin_myapp"); // db user
+define('DB_PASSWORD', "androidapp"); // db password (mention your db password here)
+define('DB_DATABASE', "justin_myapp"); // database name
+define('DB_SERVER', "localhost"); // db server
 ?>
